@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "my shit",
+	"description": "Hehe",
+	"version": "1.0",
+	"author": "@MrMoustach",
+
+	"background": {
+		"scripts": ["popup.js"],
+		"persistent": true
+	},
+
+	"permissions": [
+        "tabs",
+        "https://reservation.42network.org/*"
+    ],
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_popup": "popup.html"
+	}
+}
